@@ -1,44 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Animal Kingdom Giphy API Search</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</head>
-<body>
+  <head>
 
-<nav class="navbar navbar-dark bg-dark">
-    <span class="navbar-brand mb-0 h1" id="holder">Animal Kingdom Giphy Search</span>
-    <form class="form-inline my-2 my-lg-0" id="Search">
-            <label for="Input" id="instructions">Search the kingdom!</label>
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="Input">
-            <button class="btn btn-outline-info" type="submit" id="addTopic">Search</button>
-          </form>
-</nav>
-
-<div class="container">
-        <div class="row">
-            <div class="btn-group inline pull-left">
-      <button class="btn btn-light" id="topic" data-search="Dogs">Dogs</button>
-      <button class="btn btn-light" id="topic" data-search="Tigers">Tigers</button>
-      <button class="btn btn-light" id="topic" data-search="Lizards">Lizards</button>
-      <button class="btn btn-light" id="topic" data-search="Whales">Whales</button>
-
-      <div id="myButtons"></div>
-    </div>
-  </div>
-</div>
+    <title>Giftastic! - Joshua Bevil</title>
     
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+			
+  </head>
 
-<div class="container">
-    <div class="row">
-            <div id="gifArea"></div>
-  </div>
-</div>
+  <body>
+    <div class="container-fluid" id="wrap">
+    	
+    
+	    <div class="row">
+	    	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="header">
+	    		<h3 id="title">Giftastic!</h3>
+	    	</div>
+	    </div>
 
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="buttonArea"></div>
+		</div>
 
-<script src="assets/javascript/javascript.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</body>
+		<div class="row">
+			<div class="col-xs-9 col-sm-9 col-md-9 col-lg-9" id="gifArea"></div>
+		
+			<div class="col-xs-3 col-sm-3 col-md-3col-lg-3">
+				<form>
+				  <fieldset>
+				  	<label for="topic-input">Add a topic</label><br>
+				    <input type="text" placeholder="Type something…" id="topic-input">
+				    <button type="submit" class="btn submit" >Submit</button>
+				  </fieldset>
+				</form>
+			</div>
+		</div>	
+		
+		
+	</div>
+		<footer class="footer">
+      		<div class="container">
+        		<span class="credits">Giftastic! - Joshua Bevil</span>
+      		</div>
+    	</footer>
+		
+	
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script src="assets/javascript/app.js"></script>
+  </body>
+
 </html>
