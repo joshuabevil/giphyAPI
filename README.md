@@ -2,7 +2,7 @@
 homework 6
 
 
-<h1>Giftastic! - gif generator
+<h1>Giftastic! - gif generator</h1>
 
 This is an application that pulls random gif images from the GIPHY API.
 
